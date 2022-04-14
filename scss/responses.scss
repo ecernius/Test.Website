@@ -1,0 +1,41 @@
+.responses {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: $gray-bg;
+
+    h1 {
+        margin: 20px;
+        margin-top: 80px;
+    }
+
+    .imgs {
+        display: flex;
+        text-align: center;
+
+        .text {
+            margin: 10px
+        }
+
+        h3 {
+            margin: 10px;
+        }
+
+        p {
+            margin-bottom: 40px;
+            max-width: 300px;
+            font-weight: 300;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+
+        }
+    }
+}
+
+// responses

@@ -1,0 +1,57 @@
+footer {
+    background: $gray-bg;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    height: auto;
+
+    ul {
+        padding-top: 40px;
+        display: flex;
+
+        a {
+            color: $button;
+            text-decoration: none;
+
+            &:hover {
+                color: $hover;
+                cursor: pointer;
+
+            }
+        }
+
+        li {
+            margin-left: 25px;
+
+        }
+    }
+
+    p {
+        color: gray;
+        margin-top: 10px;
+        font-size: 0.8em;
+        padding-bottom: 40px;
+    }
+
+    .icons {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: $button;
+
+
+        i {
+            font-size: 2em;
+            margin: 20px;
+
+            &:hover {
+                color: $hover;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}
+
+//footer

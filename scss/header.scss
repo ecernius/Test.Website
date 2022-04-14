@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    background: url(../images/bg-masthead.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px black;
+
+    h1 {
+        color: white;
+        text-align: center;
+        
+    }
+
+    form {
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+
+        input:first-child {
+            width: 30%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        input:last-child {
+            background-color: $button;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 5px;
+
+            &:hover {
+                background-color: $hover;
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+
+}
+
+// header

@@ -1,0 +1,32 @@
+nav {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10%;
+    position: fixed;
+    width: 80%;
+
+    button {
+        background-color: $button;
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+
+        &:hover {
+            background-color: $hover;
+            cursor: pointer;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    //button
+}
+
+//nav
