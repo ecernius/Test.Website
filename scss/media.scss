@@ -1,4 +1,14 @@
-@media (max-width:600px) {
+@media (max-width:600px)
+{
+header{ 
+    height: auto;
+    form{
+        padding-bottom: 30px;
+    }
+    h1{
+        padding-top: 100px;
+    }
+} 
     
     article {
         flex-direction: column;
